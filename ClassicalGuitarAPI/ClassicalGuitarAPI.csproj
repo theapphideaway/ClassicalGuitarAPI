@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>2581152e-bb0a-4b80-bdf8-92f1e610526b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Photos\cordoba_c1.png" />
+    <Content Remove="wwwroot\Photos\cordoba_c100m.png" />
+    <Content Remove="wwwroot\Photos\cordoba_c5_cet_limited.png" />
+    <Content Remove="wwwroot\Photos\cordoba_c5_ce_sp.png" />
+    <Content Remove="wwwroot\Photos\cordoba_c5_sp.png" />
+    <Content Remove="wwwroot\Photos\cordoba_esteso_cd.png" />
+    <Content Remove="wwwroot\Photos\cordoba_esteso_sp.png" />
+    <Content Remove="wwwroot\Photos\cordoba_friederich.png" />
+    <Content Remove="wwwroot\Photos\cordoba_requinto.png" />
+    <Content Remove="wwwroot\Photos\LC100.PNG" />
+    <Content Remove="wwwroot\Photos\LC100CE.PNG" />
+    <Content Remove="wwwroot\Photos\LC150S.PNG" />
+    <Content Remove="wwwroot\Photos\LC150SCE.PNG" />
+    <Content Remove="wwwroot\Photos\LC200S.PNG" />
+    <Content Remove="wwwroot\Photos\LC230S.PNG" />
+    <Content Remove="wwwroot\Photos\LC235SCE.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Photos\cordoba_c1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\cordoba_c100m.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\cordoba_c5_cet_limited.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\cordoba_c5_ce_sp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\cordoba_c5_sp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\cordoba_esteso_cd.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\cordoba_esteso_sp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\cordoba_friederich.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\cordoba_requinto.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\LC100.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\LC100CE.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\LC150S.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\LC150SCE.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\LC200S.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\LC230S.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Photos\LC235SCE.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+  </ItemGroup>
+
+
+</Project>
